@@ -1,0 +1,163 @@
+<html>
+
+<!-- Head tag -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="http://www.iconj.com/ico/p/h/phl0p094gm.ico" type="image/x-icon">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>⟴ ↭ ⥉ ⬼ ↯ ↬</title>
+
+    <!-- Custom styles for this template -->
+    <!-- <link rel="stylesheet" href="/css/blog.css"> -->
+      <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+
+<body>
+
+    <div class="sidebar">
+
+
+</div>
+
+<!-- <div class="sidebar">
+
+<center><a href="http://partisanthesaurus.com/" class="navlink"><img src="https://melanie-hoff.com/_images/partisanthesaurus.jpg" class="icon"><br>Partisan Thesaurus</a></center>
+
+<center><a href="https://melanie-hoff.com/sds" class="navlink"><img src="https://melanie-hoff.com/_images/sds_icon_small.png" class="icon"><br>Small Data Squad</a></center>
+
+<center><a href="/DOPPELCAM/" class="navlink"><img src="https://melanie-hoff.com/_images/doppelcam.jpg" class="icon"><br>Doppelcam</a></center>
+
+<center><a href="/DECODELIA/" class="navlink"><img src="https://melanie-hoff.com/_images/decodelia.jpg" class="icon"><br>Decodelia</a></center>
+
+<center><a href="http://beautycontest.melanie-hoff.com/" class="navlink"><img src="https://melanie-hoff.com/_images/beautycontest.jpg" class="icon"><br>Beauty contest</a></center>
+
+
+<center><a href="/SKY-VIEW/" class="navlink"><img src="https://melanie-hoff.com/_images/skyview.jpg" class="icon"><br>Sky View</a></center>
+
+<center><a href="http://www.artdelicorp.com/Homework/FIRST-SCREEN-NAMES-09/" target="_blank" class="navlink"><img src="https://melanie-hoff.com/_images/firstscreennames.jpg" class="icon"><br>First Screen Names</a></center>
+
+
+<center><a href="http://artdelicorp.com/Homework/bodega_timemachine/" target="_blank" class="navlink"><img src="https://melanie-hoff.com/_images/bodegatimemachine.jpg" class="icon"><br>Bodega Time Machine</a></center>
+
+<center><a href="/SCANNERVISION/" class="navlink"><img src="https://melanie-hoff.com/_images/scannervision.jpg" class="icon"><br>Scannervision</a></center>
+
+<center><a href="/PORN-FOR-THE-BLIND/" class="navlink"><img src="https://melanie-hoff.com/_images/pornfortheblind.jpg" class="icon"><br>Porn for the Blind</a></center>
+
+<center><a href="/REMEMBERING/" class="navlink"><img src="https://melanie-hoff.com/_images/remembering.jpg" class="icon"><br>Remembering</a></center>
+
+<center><a href="/PEPTO-BISMUTH/" class="navlink"><img src="https://melanie-hoff.com/_images/peptobismuth.jpg" class="icon"><br>Pepto Bismuth</a></center>
+
+<center><a href="/15-000-VOLTS/" class="navlink"><img src="https://melanie-hoff.com/_images/15000volts.jpg" class="icon"><br>15,000 Volts</a></center>
+
+
+</div> -->
+
+<!-- <p id="welcome-text"><font color="white"><br>Hi! My name is Melanie hoff and you've arrived at my website. I hope the journey was smooth and whatever brought you here was a source whose judgement you trust. I'd like to share something of myself and my recent thoughts. Please, don't hesitate to tell me you disagree with every word, with every fibre of your being. My work rests on the premise that using the same tools that increasingly moderate and control society for artistic expression is an agile, political act. As artists, it's important not just to use these tools for our own agendas, but in doing so, to really understand how they operate on us and then share that knowledge. The relations between society and technology is a material reality that we need to be able to recognize before we can dismantle. The ability to read webs of power should not rest solely in the hands of those who spin them.,, My practice also investigates identity, visibility, and the ways in which representation actively shape our interactions and consciousness. None of us can claim to see everything in the situations we are in, and even what we see may not coincide with reality. Our perceptions are shaped by frames that hide some things and amplify others. Thank you for listening. smiley face. smiley face. heart.,,,,,</font></p> -->
+
+<script type="text/javascript">
+
+function leftmostize() {
+    var tops = {};
+    $(".sidebar center").each(function(i, element) {
+        var thisTop = $(element).offset().top;
+        if(!(thisTop in tops)) tops[thisTop] = 0;
+        tops[thisTop] += 1;
+    });
+    var rowSize = Object.values(tops)[0];
+    var lastRowTop = Object.keys(tops).pop();
+
+
+    $(".leftmost").removeClass("leftmost");
+    $(".bottommost").removeClass("bottommost");
+
+    $(".sidebar center").each(function(i, element) {
+        if(i % rowSize == 0) {
+            $(element).children(".navlink").addClass("leftmost");
+        }
+        var thisTop = $(element).offset().top;
+    	if(thisTop == lastRowTop) {
+            $(element).children(".navlink").addClass("bottommost");
+        }
+
+    });
+}
+
+
+$(function() {
+    $( window ).resize(function() {
+        leftmostize();
+    });
+    leftmostize();
+});
+
+</script>
+
+
+
+
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-section">
+        <div class="main-content">
+
+    <div class="blog-post">
+
+
+
+<h1 id="selectedProjects">Selected Projects</h1>
+<div class="col2">
+
+
+</div>
+
+
+
+<br>
+
+<img id="construction" src="https://melanie-hoff.com/_images/under.gif"><br><br><br><br><a id="back" href="/" style="color:#888888"><b><u>⤾ Back</u></b></a></img>
+
+
+
+<style>
+
+
+body {
+	background-color:#f4f4f4;
+
+}
+
+
+</style>
+
+
+
+
+    </div>
+
+</div>
+
+
+
+    </div>
+
+</div>
+
+<!-- Footer -->
+<script type="text/javascript" src="works.js"></script>
+<script type='text/javascript' src='https://code.jquery.com/jquery-3.4.0.min.js'></script>
+<script src="main.js"></script>
+
+
+
+</body>
+
+</html>

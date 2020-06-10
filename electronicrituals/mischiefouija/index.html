@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="UTF-8">
+    <title>mousemousemousemousemousemousemousemousemousemouse</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript">
+
+// █████████████████████████████████████████████████
+//                     JS
+// █████████████████████████████████████████████████
+
+
+// █████████████████████████████████████████████████
+//                 DOC READY
+// █████████████████████████████████████████████████
+
+
+  $( document ).ready(function() {
+      console.log( "ready =) !!!" );
+
+      var delay = 1200;
+      var setTimeoutConst1;
+      var setTimeoutConst2;
+      var setTimeoutConst3;
+
+      $(".letter").hover(function() {
+          var self = this;
+
+          setTimeoutConst = setTimeout(function(){
+              console.log(self.id.toUpperCase() + "  was spelled")
+            $( "#response" ).append( self.id.toUpperCase() );
+          }, delay);
+        }, function() {
+            clearTimeout(setTimeoutConst );
+            }
+      );
+
+
+      $("#space").hover(function() {
+          setTimeoutConst2 = setTimeout(function(){
+            $( "#response" ).append( "<span>&nbsp</span>" );
+          }, delay);
+        }, function() {
+            clearTimeout(setTimeoutConst2 );
+            }
+      );
+
+
+
+
+      $("#clear").hover(function() {
+          setTimeoutConst3 = setTimeout(function(){
+            $( "#response" ).html("");
+          }, delay);
+        }, function() {
+            clearTimeout(setTimeoutConst3 );
+            }
+      );
+
+
+
+
+
+
+
+});
+
+  </script>
+  </head>
+
+  <!--
+  █████████████████████████████████████████████████
+                    HTML
+  █████████████████████████████████████████████████
+   -->
+  <body>
+
+      <div id = "a" class="letter"></div>
+      <div id = "b" class="letter"></div>
+      <div id = "c" class="letter"></div>
+      <div id = "d" class="letter"></div>
+      <div id = "e" class="letter"></div>
+      <div id = "f" class="letter"></div>
+      <div id = "g" class="letter"></div>
+      <div id = "h" class="letter"></div>
+      <div id = "i" class="letter"></div>
+      <div id = "j" class="letter"></div>
+      <div id = "k" class="letter"></div>
+      <div id = "l" class="letter"></div>
+      <div id = "m" class="letter"></div>
+      <div id = "n" class="letter"></div>
+      <div id = "o" class="letter"></div>
+      <div id = "p" class="letter"></div>
+      <div id = "q" class="letter"></div>
+      <div id = "r" class="letter"></div>
+      <div id = "s" class="letter"></div>
+      <div id = "t" class="letter"></div>
+      <div id = "u" class="letter"></div>
+      <div id = "v" class="letter"></div>
+      <div id = "w" class="letter"></div>
+      <div id = "x" class="letter"></div>
+      <div id = "y" class="letter"></div>
+      <div id = "z" class="letter"></div>
+      <div id = "yes" class="letter"></div>
+      <div id = "no" class="letter"></div>
+
+      <div id = "response"></div>
+
+
+      <button id= "space" class= "button" type="button">[space]</button>
+      <button id= "clear" class= "button" type="button">[clear]</button>
+
+
+
+
+
+  </body>
+</html>
+
+<!--
+█████████████████████████████████████████████████
+                    STYLE
+█████████████████████████████████████████████████
+ -->
+<style>
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,700');
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab|Lekton');
+
+:root{
+    --gradient: linear-gradient(#fba898, #9fbdfc);
+    --txt-color: black;
+    --shad-color: white;
+    --butt-color: white;
+    /*--font:  'Kelly Slab', cursive;*/
+    --font: courier;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    display: block;
+    background-color: black;
+    font-family: var(--font);
+    color: var(--txt-color);
+    line-height: 120%;
+    text-shadow: none;
+    background-image: url("https://melanie-hoff.com/_images/mischiefouija04.jpg");
+    background-attachment: fixed;
+    background-size: 1440px;
+    background-repeat: no-repeat;
+
+}
+
+* {
+    cursor: url("https://melanie-hoff.com/_images/cursor03.cur"), url("https://melanie-hoff.com/_images/cursor03.cur"), auto !important;
+
+}
+
+#response {
+    font-size: 160px;
+    width: 1440px;
+    height: 60;
+    font-family: var(--font);
+    color: black;
+    /*border: 1px solid blue;*/
+    position: absolute;
+    text-align: center;
+    top: 700px;
+    text-shadow: 0px 0px 17px rgba(166, 0, 255, 1);
+    /*cursor: url("https://melanie-hoff.com/_images/cursor02.cur"), pointer !important;*/
+    /*background-image: url("https://melanie-hoff.com/_images/cursor.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    /*cursor: url("https://melanie-hoff.com/_images/cursor02.cur"), pointer !important;*/
+}
+
+.button :hover {
+    /*cursor: url("https://melanie-hoff.com/_images/cursor02.cur"), pointer !important;*/
+}
+
+#space, #clear {
+    font-size: 40px;
+    font-family: courier;
+    font-weight: 700;
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 550px;
+    left: 510px;
+    outline: none;
+}
+
+#clear {
+    left: 750px !important;
+}
+#clear, #space :hover {
+    /*cursor: url("https://melanie-hoff.com/_images/cursor02.cur"), pointer !important;*/
+}
+
+.letter {
+    width: 90px;
+    height: 90px;
+    color: white !important;
+    /*border: 4px solid blue;
+    opacity:0.4;*/
+    /*background-color: violet;*/
+    position: absolute;
+    /*cursor: url("https://melanie-hoff.com/_images/cursor02.cur"), pointer !important;*/
+}
+
+.letter :hover {
+    /*cursor: url("https://melanie-hoff.com/_images/cursor02.cur"), pointer !important;*/
+}
+
+#yes {
+    left: 210px;
+    top: 90px;
+    width: 200px;
+    height: 90px;
+}
+
+#no {
+    left: 1090px;
+    top: 90px;
+    width: 120px;
+}
+
+#a {
+    left: 45px;
+    top: 255px;
+}
+
+#b {
+    left: 150px;
+    top: 255px;
+}
+
+#c {
+    left: 255px;
+    top: 255px;
+}
+
+#d {
+    left: 360px;
+    top: 255px;
+}
+
+#e {
+    left: 460px;
+    top: 255px;
+}
+
+#f {
+    left: 565px;
+    top: 255px;
+}
+
+#g {
+    left: 670px;
+    top: 255px;
+}
+
+#h {
+    left: 773px;
+    top: 255px;
+}
+
+#i {
+    left: 873px;
+    top: 255px;
+}
+
+#j {
+    left: 978px;
+    top: 255px;
+}
+
+#k {
+    left: 1084px;
+    top: 255px;
+}
+
+#l {
+    left: 1184px;
+    top: 255px;
+}
+
+#m {
+    left: 1289px;
+    top: 255px;
+}
+
+/*Lower Letters*/
+/*█████████████████████████████████████████████████*/
+
+#n {
+    left: 45px;
+    top: 428px;
+}
+
+#o {
+    left: 150px;
+    top: 428px;
+}
+
+#p {
+    left: 255px;
+    top: 428px;
+}
+
+#q {
+    left: 360px;
+    top: 428px;
+}
+
+#r {
+    left: 460px;
+    top: 428px;
+}
+
+#s {
+    left: 565px;
+    top: 428px;
+}
+
+#t {
+    left: 670px;
+    top: 428px;
+}
+
+#u {
+    left: 773px;
+    top: 428px;
+}
+
+#v {
+    left: 875px;
+    top: 428px;
+}
+
+#w {
+    left: 980px;
+    top: 428px;
+}
+
+#x {
+    left: 1087px;
+    top: 428px;
+}
+
+#y {
+    left: 1187px;
+    top: 428px;
+}
+
+#z {
+    left: 1292px;
+    top: 428px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flexcontainer {
+	height:100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+    /*cursor: url("https://melanie-hoff.com/_images/cursor02.cur"), pointer !important;*/
+}
+.centerdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: calc(100vw - 50px) ;
+    height: calc(100vh - 50px) ;
+    padding: 30px;
+    border-style: dashed;
+    border-color: var(--txt-color);
+    /*cursor: url("https://melanie-hoff.com/_images/cursor02.cur"), pointer !important;*/
+    /*height:100vh;*/
+}
+</style>

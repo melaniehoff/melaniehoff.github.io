@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Small Data Squad</title>
+<link rel="stylesheet" href="https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript"></script>
+</head>
+<!-- █████████████████████████████████████████████████
+                            HTML
+     █████████████████████████████████████████████████ -->
+<body>
+    <div class="flexcontainer">
+    	<div class="centerdiv">
+<center>
+<br><br><br><br>
+    <p id="box">PHONOMANCY
+    </p>
+            <br><br><img class="images" src="https://melanie-hoff.com/_images/rituals/merkaba.gif"><br>
+            <img class="images" src="https://melanie-hoff.com/_images/rituals/7card.jpg"><br>
+
+
+            <video autoplay loop>
+              <source src="https://melanie-hoff.com/_images/rituals/1.mov" type="video/mp4">
+            </video>
+
+            <video autoplay loop>
+              <source src="https://melanie-hoff.com/_images/rituals/2.5.mp4" type="video/mp4">
+            </video>
+
+            <video autoplay loop>
+              <source src="https://melanie-hoff.com/_images/rituals/2.2.mp4" type="video/mp4">
+            </video>
+
+            <video autoplay loop>
+              <source src="https://melanie-hoff.com/_images/rituals/3.mp4" type="video/mp4">
+            </video>
+
+            <video autoplay loop>
+              <source src="https://melanie-hoff.com/_images/rituals/3.5.mp4" type="video/mp4">
+            </video>
+
+            <video autoplay loop>
+              <source src="https://melanie-hoff.com/_images/rituals/4.mov" type="video/mp4">
+            </video>
+
+            <video autoplay loop>
+              <source src="https://melanie-hoff.com/_images/rituals/close.mov" type="video/mp4">
+            </video>
+            <!-- <video controls="controls" width="800" height="600" name="Video Name" src="http://www.myserver.com/myvideo.mov"></video> -->
+
+
+
+
+</center>
+    	</div>
+    </div>
+
+    <footer class="blog-footer"><div class="blog-footer">
+    <center><a href="https://melanie-hoff.com/"><img class="footerImg" src="https://melanie-hoff.com/_images/home.png"></a><a href="https://melanie-hoff.com/about/"><img class="footerImg" src="https://melanie-hoff.com/_images/smile.png"></a></center></div></footer>
+</body>
+</html>
+
+
+<!-- █████████████████████████████████████████████████
+                            style
+     █████████████████████████████████████████████████ -->
+<style>
+@import url('https://fonts.googleapis.com/css?family=Catamaran|Droid+Sans+Mono|Roboto+Mono');
+
+:root{
+    --bg-color: #abd1d2;
+    --txt-color: #fdffb1;
+    --shad-color: #ff7a00;
+    --font-size: 2.5vw;
+}
+
+body {
+font-family: 'Droid Sans Mono', monospace;
+    margin: 0px;
+    display: block;
+    /*padding: 0px;*/
+    /*height: 100%;*/
+/*padding: 20px;*/
+background-color: white;
+background-image: url("https://melanie-hoff.com/_images/01.png");
+background-attachment: fixed;
+background-size: 1800px;
+font-size: 1em;
+}
+
+.flexcontainer {
+	/*height:100vh;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+    /*max-width: 100vw;*/
+}
+.centerdiv {
+    max-width: 100vw;
+    /*height:100vh;*/
+}
+
+.images {
+    width: 400px;
+    max-width: 100%;
+    padding: 50px;
+}
+
+video {
+    width: 200px;
+    max-width: 100%;
+    padding: 50px;
+}
+
+#box, #box2 {
+    background: white;
+    padding: 30px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+
+#badges {
+    width: 80vw;
+}
+
+a {
+    font-weight: bold;
+    color: #b66ac6;
+}
+
+#portraitImg {
+    font-weight: bold;
+    color: #b66ac6;
+}
+#portraitImg img { display:none; }
+#portraitImg:hover img {
+    display:block;
+    position: absolute;
+    z-index:auto;
+    left: 50%;
+    margin-left: -250px
+    }
+
+.footerImg {
+    display: none;
+    border: none;
+}
+
+
+.blog-footer {
+        display: none;
+    margin-right: 19px;
+    width: 40px;
+    height: 80px;
+    bottom: 19px;
+    display:block;
+    position:fixed;
+    right:0px;
+    visibility:visible;
+    z-index:auto;
+    border-radius: 4px;
+}
+
+/*   █████████████████████████████████████████████████
+                         RESPONSIVE
+     █████████████████████████████████████████████████ */
+
+@media only screen and (max-width: 870px) {
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+body {
+    font-size: .7em;
+}
+.images, video {
+    width: 300px;
+    padding: 20px;
+}
+
+.blog-footer {
+    padding: 2px;
+    margin-right: 0px;
+    width: 40px;
+    height: 80px;
+}
+
+#box, #box2 {
+    background: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+}
+
+</style>

@@ -306,8 +306,7 @@ const works = {
     ],
     socials: [],
     relevantLinks: [
-      '<a href="http://www.visualvoicegallery.com/portfolio/past/melanie-hoff-15000-volts/">15,000 Volts Solo Show</a>',
-      '<a href="https://melaniehoff.github.io/">My old website 😜</a>'
+      '<a href="http://www.visualvoicegallery.com/portfolio/past/melanie-hoff-15000-volts/">15,000 Volts Solo Show</a>'
   ],
     press: [
       '<a href="https://www.quietlunch.com/artists-we-know-catching-up-with-melanie-hoff/">Interview on Quiet Lunch</a>',

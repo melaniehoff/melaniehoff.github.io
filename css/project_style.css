@@ -695,9 +695,13 @@ body {
   margin: 0 auto 6em auto;
   padding: 2em;
   overflow: hidden;
-  background: hsl(234, 100%, 50%); }
+  /* background: hsl(234, 100%, 50%);  */
+  border-image: url("../css/broider.png") 28 / 28px / 0 round;
+  border-width: 28px;
+  border-style: solid;
+}
   .primary-header a, footer a {
-    color: white; }
+    color: #4518fc !important; }
   .primary-header .social-media, footer .social-media {
     float: right;
     margin-top: 0.5em; }
@@ -911,7 +915,7 @@ hr {
   .social-media a {
     color: #fff; }
     .social-media a:hover {
-      color: #73ff92; }
+      color: hsl(278, 100%, 73%); }
   .social-media li {
     vertical-align: middle;
     margin: 0 0.3em; }
@@ -920,8 +924,8 @@ hr {
 
 blockquote {
   margin: 2em 0;
-  font-size: 0.9em;
-  border-left: 12px solid #a3f6be;
+  font-size: 1.3em;
+  border-left: 12px solid #d5a3f6;
   padding: 0 0 0 2em; }
 
 figure {

@@ -77,16 +77,7 @@ body {
 a {
   background: transparent; }
 
-.big-link {
-font-size: 3em;
-background: #0034ed;
-color: #fff !important;
-}
 
-.big-link:hover {
-  background:none !important;
-  color:#0034ed !important;
-  }
 
 
 /**
@@ -869,15 +860,28 @@ h1, h2, h3, h4, .meta {
     margin: -1.5em 0 3em 0 !important;
 }
 
+.big-link {
+  font-size: 3em;
+  background: #0034ed;
+  color: #fff !important;
+  }
+  
+  .big-link:hover {
+    background:none !important;
+    color:#0034ed !important;
+    }
+
   .body svg {
     margin: 3em auto;
     display: block;
     max-height: 400px; }
   .body a {
-    color: #0034ed; }
+    background: #0034ed;
+    color: #fff !important;
+  }
     .body a:hover {
-      background: #0034ed;
-      color: #fff; }
+      background:none !important;
+      color:#0034ed !important; }
     .body a code {
       color: #4169f6; }
   .body figcaption {

@@ -81,7 +81,7 @@ const works = {
     collaborationWith: [
     ],
     website: [
-      '<a href="https://cyberneticsofsex.melaniehoff.com/">Cybernetics of Sex Website NYU ITP Fall 2020</a>',
+      '<a href="https://cyberneticsofsex.melaniehoff.com/">★ Cybernetics of Sex Website NYU ITP Fall 2020</a>',
       '<a href="http://sfpc.io/code-societies/blog/2020-cybernetics-of-race-ism-and-sex-ism.html">Cybernetics of Race/ism & Sex/ism Blog Post</a>',
       '<a href="https://www.are.na/blog/code-societies-a-speculative-oral-history-melanie-hoff-and-elizabeth-perez">Code Societies Oral History: Cybernetics of Reproduction Interview on the Arena Blog with Melanie Hoff and Elizabeth Perez</a>',
       '<a href="https://docs.google.com/document/d/1HdbASofu9Z5Z_rd54I_E-pFEVhBmgB3OIeGGTI1_rzc/edit">Cybernetics of Race/ism & Sex/ism, SFPC Code Societies 2020 co-taught with Neta Bomani</a>',
@@ -90,7 +90,7 @@ const works = {
       '<a href="http://sfpc.io/codesocieties-winter-19/2019/01/25/cybernetics-of-sex.html">Class at School for Poetic Computation 2019 Blog Post</a>'
     ],
     socials: [],
-    relevantLinks: ['<a href="https://www.are.na/melanie-hoff/cybernetics-of-sex">Cybernetics of Sex Are.na Channel</a>'],
+    relevantLinks: ['<a href="https://cyberfeminismindex.com/collections/cybernetics-of-sex-by-melanie-hoff/">Collection on the Cyberfeminist Index</a>, <a href="https://www.are.na/melanie-hoff/cybernetics-of-sex">Cybernetics of Sex Are.na Channel</a>'],
     press: []
   },
   softSurplus: {

@@ -23,7 +23,7 @@ const works = {
     ],
     collaborationWith: [],
     website: [
-      '<a href="https://www.melaniehoff.com/garlictrust/">Garlic Trust Documentation</a>', 
+      '<a href="https://www.melaniehoff.com/garlictrust/">Documentation</a>', 
       '<a href="https://getgarlic.rhizome.org/leaderboard">High Scores</a>'
     ],
     socials: [],
@@ -56,7 +56,7 @@ const works = {
       '<a href="https://www.instagram.com/p/Bq0jIeXlZIn/">instagram.com/p/Bq0jIeXlZIn/</a>'
   ],
     press: [],
-    buyNow: ['<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="XQG3FU5G68UNQ"><input type="image" src="https://melanie-hoff.com/projects/assets/buy-zine.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"><img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></form>']
+    buyNow: ['<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="XQG3FU5G68UNQ"><input type="image" src="assets/buy-zine.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"><img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></form>']
   },
 
   cyberneticsOfSex: {
@@ -81,16 +81,18 @@ const works = {
     collaborationWith: [
     ],
     website: [
-      '<a href="https://cyberneticsofsex.melaniehoff.com/">★ Cybernetics of Sex Website NYU ITP Fall 2020</a>',
+      '<a href="https://cyberneticsofsex.melaniehoff.com/">★ Cybernetics of Sex Website NYU ITP Fall 2020 ★</a>',
       '<a href="http://sfpc.io/code-societies/blog/2020-cybernetics-of-race-ism-and-sex-ism.html">Cybernetics of Race/ism & Sex/ism Blog Post</a>',
       '<a href="https://www.are.na/blog/code-societies-a-speculative-oral-history-melanie-hoff-and-elizabeth-perez">Code Societies Oral History: Cybernetics of Reproduction Interview on the Arena Blog with Melanie Hoff and Elizabeth Perez</a>',
-      '<a href="https://docs.google.com/document/d/1HdbASofu9Z5Z_rd54I_E-pFEVhBmgB3OIeGGTI1_rzc/edit">Cybernetics of Race/ism & Sex/ism, SFPC Code Societies 2020 co-taught with Neta Bomani</a>',
-      '<a href="https://github.com/melaniehoff/cyberneticsofsex/blob/master/README.md">Class at SFPC 2019</a>',
-      '<a href="https://pioneerworks.org/classes/cybernetics-of-sex/">Class at Pioneer Works</a>',
-      '<a href="http://sfpc.io/codesocieties-winter-19/2019/01/25/cybernetics-of-sex.html">Class at School for Poetic Computation 2019 Blog Post</a>'
+      '<a href="https://cyberfeminismindex.com/collections/cybernetics-of-sex-by-melanie-hoff/">Collection on the Cyberfeminist Index</a>'
     ],
     socials: [],
-    relevantLinks: ['<a href="https://cyberfeminismindex.com/collections/cybernetics-of-sex-by-melanie-hoff/">Collection on the Cyberfeminist Index</a>, <a href="https://www.are.na/melanie-hoff/cybernetics-of-sex">Cybernetics of Sex Are.na Channel</a>'],
+    relevantLinks: [ 
+    '<a href="https://docs.google.com/document/d/1HdbASofu9Z5Z_rd54I_E-pFEVhBmgB3OIeGGTI1_rzc/edit">Cybernetics of Race/ism & Sex/ism, SFPC Code Societies 2020 co-taught with Neta Bomani</a>',
+    '<a href="https://github.com/melaniehoff/cyberneticsofsex/blob/master/README.md">Class at SFPC 2019</a>',
+    '<a href="https://pioneerworks.org/classes/cybernetics-of-sex/">Class at Pioneer Works</a>',
+    '<a href="http://sfpc.io/codesocieties-winter-19/2019/01/25/cybernetics-of-sex.html">Class at School for Poetic Computation 2019 Blog Post</a>','<a href="https://www.are.na/melanie-hoff/cybernetics-of-sex">Cybernetics of Sex Are.na Channel</a>'
+  ],
     press: []
   },
   softSurplus: {

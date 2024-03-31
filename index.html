@@ -8,46 +8,90 @@
 
 
 <style media="screen">
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+
   p {
     width: 60vw;
     font-size: 1.5em;
     margin: 1.5em;
   }
   a {
-    color: white;
+    color: rgb(2, 15, 187);
   }
   a:visited {
-  color: white;
+  color: rgb(2, 15, 187);
   }
 
   a:hover {
-    background: yellow !important;
-      color: #0c0cca !important;
+    background: black !important;
+      color: black !important;
   }
 
 body {
-  background-color: rgb(2, 15, 187);
-  color: #f4f4f4;
+/*  background-color: rgb(2, 15, 187);*/
+/*  color: #f4f4f4;*/
+/*  background-color: rgb(243 243 243);*/
+  color: black;
 }
 
-img {
-  width: 50vw;
-margin: 2em;
+#statement {
+      margin-top: 0em;
+}
+
+.cover-img {
+    margin: auto;
+    width: 100%;
+    margin-top: 0em;
+margin-bottom: 3em;
 }
 
 .show {
-  width: 40vw;
+  width: 30vw;
+  margin: 0em;
+}
+
+.show-end {
+  width: 70%;
   margin: 0em;
 }
 
 .work {
-  border: 2px solid yellow;
+  border: 2px solid black;
   padding: .5em;
 
 }
 
 .highlight {
-  border: 2px solid yellow;
+  border: 1px solid black;
   padding: .1em;
   margin-left: .2em;
 }
@@ -64,24 +108,30 @@ h3 {
   font-weight: 100;
     margin-left: 1em;
 }
+ 
+img.performances{
+  width: 25%;
+  margin: 1.5em;
+  margin-left: 2.5em;
+  margin-top:0em;
+}
 
 #projects {
-  background: yellow !important;
-  border: 1px solid yellow;
-    color: #0c0cca !important;
+  border: 1px solid black;
+/*    color: black !important;*/
     padding: .2em !important;
 }
 
 #projects:hover {
-  background: none !important;
-  border: 1px solid white;
-  color: white !important;
+  background: black !important;
+  border: 1px solid black;
+  color: black !important;
   padding: .2em !important;
 }
 
 #cv {
-  border: 1px solid white;
-  text-decoration: none;
+  border: 1px solid black;
+/*  text-decoration: none;*/
   padding: .2em;
 }
 
@@ -102,6 +152,11 @@ body {
 
 .bigger {
     font-size: 1em;
+}
+
+img.performances {
+  width: 33%;
+    margin: 1em;
 }
 
 .work {
@@ -139,81 +194,126 @@ p {
 
 
 
+
+
+
 }
 </style>
-<link rel="stylesheet" type="text/css" href="style.css">
+<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ <script src="script.js"></script>
 </head>
 <body>
 
-<br>
 <center>
-      <img src="https://raw.githubusercontent.com/melaniehoff/melaniehoff.github.io/master/_images/arrow.png"></img>
+      <img class="cover-img" src="ascii2.png"></img>
   </center>
+
+
+  <p id="statement">
+Melanie Hoff is an artist, organizer, and educator. At <a href="https://sfpc.study/">School for Poetic Computation</a> and <a href="https://www.instagram.com/hexh0use/">Hex House</a>, they cultivate spaces of learning and feeling that encourage honesty, poetry, and reconciliation for the ways we are shaped by intersecting systems of classification and power. Melanie engages hacking and performance to express the absurdities of these systems while revealing the encoded ways in which they influence how we choose to live and what choices have been made for us. They teach about sex, technology, and social cybernetics at the School for Poetic Computation, Yale University, New York University, and have shown work at the New Museum, the Queens Museum, and elsewhere.
+</p>
+
+<br><br><br>
+
   <div class="bigger arrows">
     ⟴ ↭ ⥉ ⬼ ↯ ↬
     <a style="" id="projects" href="/projects/">⟿ Selected Projects</a>
-    &nbsp;&nbsp;&nbsp;<a id="cv" href="https://docs.google.com/spreadsheets/d/1-y7jimcRtuyaK8gzWNn6_Wj_eJADOrpw9fb63-ixFJ4/edit?usp=sharing" target="_blank">CV&nbsp;&&nbsp;News</a>
+    &nbsp;&nbsp;&nbsp;<a id="cv" href="https://docs.google.com/spreadsheets/d/1-y7jimcRtuyaK8gzWNn6_Wj_eJADOrpw9fb63-ixFJ4/edit?usp=sharing" target="_blank">CV</a>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-  <div class="bigger">
-  <h3>Welcome to this ↬ space.</h3>
-</div>
-
-
-  <br>
-
-  <p id="statement">
-  I am an artist and educator whose work re-codes conventions of norms, interfaces, and sex, through software, installation, and new choreographies of exchange. I am committed to creating spaces that foreground pleasure and celebration, that model sustainable support systems and make it possible for people to learn socially, ambiently, and holistically.
-<br><br>
-  As a founding member of the <a href="cybernetics.social">Cybernetics Library</a> and the collective <a href="https://www.instagram.com/softsurplus/">Soft Surplus</a>, I strive to cultivate spaces of learning and feeling that encourage honesty and reconciliation for the ways we are shaped by systems of gender, racialization, class, and the trauma these systems inscribe upon our bodies. The Cybernetics Library is an art and research collective offering resources for study and critique of technosocial systems, and Soft Surplus is a member-led art space for learning and making things near each other.
-  <br><br>
-  I am also the lead organizer of <a href="http://sfpc.io/code-societies/">Code Societies</a> and <a href="http://lovelanguages.melaniehoff.com/">Digital Love Languages</a> at the School for Poetic Computation. Rather than presenting students with a set of skills by which they “become” coders or programmers, I care about affirming and expanding the ways people are already adept at programming their environments.
-
-
-<br><br>
-<a class="highlight" target="_blank" href="https://gist.github.com/melaniehoff/95ca90df7ca47761dc3d3d58fead22d4">Always Already Programming</a>
-<br><br><br>
-
-</p>
 
 <p>
   <a href="https://www.instagram.com/melanieh0ff/" target="_blank" rel="external">instagram</a>
   &nbsp;⟿&nbsp;
-  <a href="https://twitter.com/Melanie_Hoff" target="_blank" rel="external">twitter</a>
+  <a href="https://twitter.com/melanieh0ff" target="_blank" rel="external">twitter</a>
   &nbsp;⟿&nbsp;
   <a href="https://www.are.na/melanie-hoff" target="_blank">are.na</a>
   &nbsp;⟿&nbsp;
-  <a href="mailto:hoffmelanie@gmail.com" target="_blank">email</a>
-
-  <br>
+  <a href="mailto:m@melaniehoff.com" target="_blank">email</a>
 </p>
 
-<p><i>You can watch a visiting artist lecture I gave at Parsons in Summer 2020<a class="highlight" href="https://www.youtube.com/watch?v=sq-Mc1Xm4DI&t=7s">here</a>.</i></p>
+<br>
+<br>
+
+
+
+
+<p>
+  In 2021-2024 Melanie has been a co-director two organizations, School for Poetic Computation and Hex House. In 2021 Melanie co-founded Hex House. At both of these organizations Melanie has lead efforts towards institutional change that has made who can work and be part of these spaces radically more accessible for people who are underrepresented in art and technology.
+</p>
+<p>
+Across their roles as co-director, founder, educator, artist, and organizer they care about affirming and expanding the ways people are already adept at programming their environments.
+<br><br>
+<a class="highlight" target="_blank" href="https://gist.github.com/melaniehoff/95ca90df7ca47761dc3d3d58fead22d4">Always Already Programming</a>
+</p>
+<br>
+
+<p>
+  In 2023, Melanie focused on performance art and created six unique public performances about expanded notions of sex, the structure of language, collective transformation, political theatre, failure, friendship and community fracture.  
+
+<div class="performance-images">
+<img class="performances" src="wedding.jpg">
+<img  class="performances" src="bubble.jpeg">
+<img class="performances" src="cakehole.jpeg">
+</div>
+</p>
+
+
+<p>
+  2022 & 2024: Lead organizer of <a href="https://sfpc.study/sessions/spring-24/sex-ed">SFPC: Sex Ed</a>, a pleasure and queer centered education intensive for adults designed to create the sex education we never had, but always sought. SFPC: Sex Ed is for those who believe sex is a subject of knowledge worthy of careful rigorous study.<br><br>
+
+<img class="show" src="sexed.png">
+</p>
+<br>
+
+<p>
+  2021: Installed two installations as part of <a href="https://celinekatzman.com/entrance/tag:queens+museum#wet-networks">Wet Networks at the Queens Museum</a> curated by Celine Katzman in parternship with Rhizome and CycleX.<br><br>
+  <img class="show" src="wetnetworks.jpeg">
+</p>
 <br>
 <p>
-In summer 2020, I am teaching <a href="http://lovelanguages.melaniehoff.com/">Digital Love Languages</a>, a class based on the premise that a world where all the software we use is made by people who love us, is possible. This was held online for 10 weeks as part of the School for Poetic Computation's Summer 2020 session.<br><br>
-<img class="show" src="https://raw.githubusercontent.com/melaniehoff/melaniehoff.github.io/master/_images/dll.png">
+  2021-2022: Taught Cybernetics of Desire and <a href="http://lovelanguages.melaniehoff.com/">Digital Love Languages</a> at Yale School of Art's Design program.
+</p>
+
+<p>
+  2020 and 2021: Taught <a href="https://cyberneticsofsex.melaniehoff.com/">Cybernetics of Sex: Technology, Feminisms, & the Choreography of Control</a> at NYU ITP's grad program.  
+</p>
+
+<p>You can watch a visiting artist lecture they gave at Parsons in Summer 2020<a class="highlight" href="https://www.youtube.com/watch?v=sq-Mc1Xm4DI&t=7s">here</a>.</p>
+
+<p>
+Summer 2020: Taught <a href="http://lovelanguages.melaniehoff.com/">Digital Love Languages</a>, a class based on the premise that a world where all the software we use is made by people who love us, is possible. This was held online for 10 weeks as part of the School for Poetic Computation's Summer 2020 session.<br><br>
+<img class="show" src="dll.png">
 <br><br><br>
 
-In April 2020, I collaborated with <a href="http://www.bufubyusforus.com/">BUFU</a> on <a href="https://cloud9.support/">Cloud9</a>, a platform and to share care, strategies, wisdom, sweetness, resources, and love to support everyone affected by the coronavirus pandemic.
+April 2020: collaborated with <a href="https://www.instagram.com/bufu_byusforus/?hl=en">BUFU</a> on Cloud9, a platform and to share care, strategies, wisdom, sweetness, resources, and support to everyone affected by the coronavirus pandemic.
 <br><br>
 <img class="show" src="cloud9cal.png">
 
 <br><br><br>
-In Winter 2020, I organized <a href="https://sfpc.io/code-societies/">Code Societies</a> with Neta Bomani & Emma Rae Norton; a 3 week intensive educational program at the School for Poetic Computation in it's 3rd iteration. Check out the blog post on <a href="https://sfpc.io/code-societies/blog/2020-cybernetics-of-race-ism-and-sex-ism.html">Cybernetics of Race/ism & Sex/ism</a> as well as our Code Societies <a href="https://sfpc.io/code-societies/oral-history/">Oral History Recordings</a>.
+In 2018, 2019, & 2020, they organized <a href="https://sfpc.io/code-societies/">Code Societies</a> with Neta Bomani & Emma Rae Norton; a 3 week intensive educational program at the School for Poetic Computation in it's 3rd iteration. Check out the blog post on <a href="https://sfpc.io/code-societies/blog/2020-cybernetics-of-race-ism-and-sex-ism.html">Cybernetics of Race/ism & Sex/ism</a> as well as our Code Societies <a href="https://sfpc.io/code-societies/oral-history/">Oral History Recordings</a>.
 <br><br>
 <img class="show" src="https://raw.githubusercontent.com/melaniehoff/melaniehoff.github.io/master/_images/showcase.jpeg">
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<center>
+<img class="show-end" src="end.png">
+</center>
 </p>
 <br><br><br>
 
@@ -221,9 +321,6 @@ In Winter 2020, I organized <a href="https://sfpc.io/code-societies/">Code Socie
 
 
       <br>
-<!-- <center>
-      <img src="https://raw.githubusercontent.com/melaniehoff/melaniehoff.github.io/master/_images/arrow.png"></img>
-  </center> -->
 
 
 

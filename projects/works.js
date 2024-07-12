@@ -256,7 +256,7 @@ const works = {
     institutionalPartners: [],
     collaborationWith: [],
     website: [
-      '<a href="https://melanie-hoff.com/generativetarot">Generative Tarot</a>'
+      '<a href="https://melaniehoff.com/generativetarot">Generative Tarot</a>'
     ],
     socials: [],
     relevantLinks: [],

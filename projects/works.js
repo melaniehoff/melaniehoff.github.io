@@ -306,13 +306,13 @@ const works = {
     institutionalPartners: [],
     collaborationWith: [],
     website: [
-      '<a href="https://melanie-hoff.com/DECODELIA/">Decodelia</a><span class="plain">, a chromatic browser obscuring browser extension</span>',
-      '<a href="https://melanie-hoff.com/SKY-VIEW">Sky View</a><span class="plain">, shows you the sky above your "current location"</span>',
+      '<a href="https://melaniehoff.com/DECODELIA/">Decodelia</a><span class="plain">, a chromatic browser obscuring browser extension</span>',
+      '<a href="https://melaniehoff.com/SKY-VIEW">Sky View</a><span class="plain">, shows you the sky above your "current location"</span>',
       '<a href="http://www.artdelicorp.com/Homework/FIRST-SCREEN-NAMES-09/">First Screen Names</a><span class="plain">, an interactive oral history project about the first screen names people chose and why</span>',
       '<a href="https://leoneckert.com/projects/browser-surprise/">Browser Surprise</a><span class="plain">, A browser extension that surprises you with what others are browsing. New tabs opens to urls randomly selected from other people who are also running the extension at the same as you, making browsing the web a more porous & leaky experience.</span>',
-      '<a href="https://melanie-hoff.com/PEPTO-BISMUTH/">Pepto Bismuth</a><span class="plain">, an *experimental* short film about the process of chemically isolating Bismuth metal from Pepto Bismol</span>',
-      '<a href="https://melanie-hoff.com/PORN-FOR-THE-BLIND/">Porn for the Blind</a><span class="plain">, a short film dedicated to Porn for the Blind dot org</span>',
-      '<a href="https://melanie-hoff.com/15-000-VOLTS/">15,000 Volts</a><span class="plain">, a process of running high voltage electricity through wood I developled and popularized through video work that went viral in 2012</span>',
+      '<a href="https://melaniehoff.com/PEPTO-BISMUTH/">Pepto Bismuth</a><span class="plain">, an *experimental* short film about the process of chemically isolating Bismuth metal from Pepto Bismol</span>',
+      '<a href="https://melaniehoff.com/PORN-FOR-THE-BLIND/">Porn for the Blind</a><span class="plain">, a short film dedicated to Porn for the Blind dot org</span>',
+      '<a href="https://melaniehoff.com/15-000-VOLTS/">15,000 Volts</a><span class="plain">, a process of running high voltage electricity through wood I developled and popularized through video work that went viral in 2012</span>',
     ],
     socials: [],
     relevantLinks: [

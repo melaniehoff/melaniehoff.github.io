@@ -95,9 +95,9 @@ const works = {
   ],
     press: []
   },
-  softSurplus: {
-    id: 'softSurplus',
-    title: 'Soft Surplus',
+  hexHouse: {
+    id: 'hexHouse',
+    title: 'Hex House',
     date: '2018 - Ongoing',
     description: 'A multi-disciplinary arts collective located in a Brooklyn warehouse where members share and collaboratively run a space together. A place to learn from each other by making things near each other.',
     locationSpace: 'Brooklyn, NYC',
@@ -109,19 +109,19 @@ const works = {
     curatorialFacilitation: '1',
     institutionalPartners: [],
     collaborationWith: [
-      'Austin Wade Smith',
-      'Dan Taeyoung',
-      '20+ Current Members'
+      'Char Stiles',
+      'Andrés Cuervo',
+      '30+ Current Members'
     ],
     website: [
-      '<a href="https://softsurpl.us/">softsurpl.us</a>'
+      '<a href="https://hexhouse.studio/">hexhouse.studio/</a>'
     ],
     socials: [
-      '<a href="https://www.instagram.com/softsurplus/">@softsurplus</a>'
+      '<a href="https://www.instagram.com/hexh0use/">@hexh0use</a>'
     ],
     relevantLinks: [],
     press: [
-      '<a href="https://techzinefair.org/2019/01/06/in-conversation-with-soft-surplus.html">NY Tech Zine Fair Interview</a>'
+      '<a href="https://www.amant.org/programs/111-for-your-reference">Amant X Hex House</a>'
     ]
   },
   cyberneticsLibrary: {

@@ -1,0 +1,207 @@
+<html>
+
+<!-- Head tag -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap" rel="stylesheet">
+    <title>Listen to NOLA</title>
+
+</head>
+
+<body>
+<br>
+
+<div class="container">
+<h1 class="highlight shadow">Listen to NOLA</h1>
+<p class="highlight shadow"><i>Listen to NOLA</i> is an interactive map<br>and living oral history document about a changing city.</p>
+
+
+<div class="twoImg">
+<img class="shadow" src="flowers.jpg">
+<!-- <img class="shadow" src="gib-cover.jpg"> -->
+</div>
+
+
+<p class="highlight shadow">
+New Orleans is becoming increasingly less familiar to the people who have called this place home for their whole lives. Through an online interactive map and physical markers placed throughout the city indicating phone numbers to call in and listen, <i>Listen to NOLA</i> documents the effects of displacement and development with stories from across the city. Together, let’s listen to how the deep history and psychogeography of New Orleans’ past is shaping its present.
+
+</p>
+<img class="shadow" src="sign.jpg">
+
+<iframe id="bigmap" class="shadow" src="https://snazzymaps.com/embed/162677" width="100%" height="600px" style="border:none;"></iframe>
+
+
+
+<h1 class="highlight shadow">Sample Story</h1>
+</div>
+
+<center>
+<div class="story highlight shadow">
+  <div class="img-map">
+<img src="sizzle-sq.jpg">
+<iframe src="https://snazzymaps.com/embed/163517" style="border:none;"></iframe>
+</div>
+<div class="desc">
+<h2>Hasan "HaSizzle" Matthews </h2>
+
+
+Born in 1988, HaSizzle grew up in Uptown Calliope Projects, lived in the 11th ward, 12th ward, and New Orleans East in the “Jungle” neighborhood.<br><br>
+<div class="highlight-2">“The story I have about New Orleans speaks about the LGBT community. The first black gay club that we had was called Club Fusions. It was the most popular club... every DJ, every entertainer, every performer, everyone went to this club no matter if you were gay or straight, you went to this club. This club was burned down in 2014 and it was around before Hurricane Katrina. And it was located 2004 AP Turead….it was a place like home.”</div>
+<br><br>
+
+<audio controls class="shadow-2">
+  <source src="stories/HA-SIZZLE.mp3" type="audio/mpeg">
+</audio>
+
+</div>
+</div>
+</center>
+
+</body>
+<!-- //////////////+centered+////////////// -->
+<style>
+body {
+    background-color: #94bde4;
+    background-image: linear-gradient(to right, #94bde4 0%, #fcf8dd 100%);
+    background-attachment: fixed;
+    background-size:100%;
+    font-size: 1.5em;
+    padding:2em; margin:0;
+    font-family: 'Allerta Stencil', sans-serif;
+
+}
+
+h2 {
+      font-family: 'Allerta Stencil', sans-serif;
+}
+
+.story {
+    display: flex;
+    width: 60vw;
+}
+
+.shadow {
+-webkit-box-shadow: 0px 0px 21px -1px rgba(0,94,255,0.3);
+-moz-box-shadow: 0px 0px 21px -1px rgba(0,94,255,0.3);
+box-shadow: 0px 0px 21px -1px rgba(0,94,255,0.3);
+}
+
+.shadow {
+-webkit-box-shadow: 0px 0px 21px -1px rgba(0,94,255,0.3);
+-moz-box-shadow: 0px 0px 21px -1px rgba(0,94,255,0.3);
+box-shadow: 0px 0px 21px -1px rgba(0,94,255,0.3);
+}
+
+.shadow-2 {
+  -webkit-box-shadow: 0px 0px 21px -1px rgba(250, 255, 0, 0.84);
+  -moz-box-shadow: 0px 0px 21px -1px rgba(250, 255, 0, 0.84);
+  box-shadow: 0px 0px 21px -1px rgba(250, 255, 0, 0.84);
+}
+
+.story img {
+  /* margin: 1em; */
+  height: 28vw;
+  width: 28vw;
+}
+
+.twoImg {
+  display: flex;
+  /* align-content: space-around; */
+    margin: auto;
+  align-items: baseline;
+  max-width: 1000px;
+}
+
+.twoImg img{
+      /* margin: 1em; */
+      /* width: 300px;
+      height: 467px; */
+      width: 100%;
+
+}
+
+#bigmap {
+  width: 60%;
+  display: block;
+  margin: auto;
+    margin-top: 2em !important;
+    margin-bottom: 4em;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+    margin-bottom: 2em;
+}
+
+
+.img-map {
+  width: 28vw;
+  margin: 1vw;
+}
+
+
+.img-map iframe {
+  border: none;
+/* margin: 1em; */
+width: 28vw;
+height: 28vw;
+  margin-top: 1em;
+}
+
+.desc {
+  width: 28vw;
+  margin: 1vw;
+font-family: courier;
+}
+
+
+audio {
+  margin-top: 2em;
+border-radius: 1em;
+}
+.highlight {
+  background-color: white;
+background-image: linear-gradient(to right, #ffffff 0%, #cbdff2 100%);
+padding: .4em;
+border-radius: .3em;
+
+}
+.highlight-2 {
+  background-color: rgb(253, 255, 170);
+padding: .1em;
+}
+p {
+width: 60%;
+text-align: center;
+display: block;
+margin: auto;
+margin-top: 2em;
+margin-bottom: 2em;
+font-family: courier;
+}
+
+img {
+  display: block;
+margin: auto;
+width: 60%;
+}
+
+h1 {
+  text-align: center;
+  display: block;
+  margin: auto;
+padding: .3em;
+}
+
+</style>
+
+
+
+</body>
+
+</html>

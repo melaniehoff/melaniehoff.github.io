@@ -1,0 +1,356 @@
+<html>
+
+<!-- Head tag -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="http://www.iconj.com/ico/p/h/phl0p094gm.ico" type="image/x-icon">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>MELANIE HOFF</title>
+
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="/css/blog.css">
+
+</head>
+
+
+<body>
+<!-- Menu -->
+<!--<div class="blog-masthead">
+    <div class="container">
+        <nav class="blog-nav">
+
+                <a class="blog-nav-item" href="/">Home</a>
+
+                <a class="blog-nav-item" href="/archives">Archives</a>
+
+        </nav>
+    </div>
+</div>-->
+
+    <!-- Blog Header: title and subtitle -->
+    <!-- <div class="blog-header">
+    <a href="/" style="color:blue"><font size="6">&#8962;</a>
+</div> -->
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+<a id="title" href="/about">Melanie Hoff<br></a>
+
+</div>
+
+<div class="sidebar">
+
+<center><a href="http://partisanthesaurus.com/" class="navlink"><img src="https://melanie-hoff.com/_images/partisanthesaurus.jpg" class="icon"><br>Partisan Thesaurus</a></center>
+
+<center><a href="https://melanie-hoff.com/sds" class="navlink"><img src="https://melanie-hoff.com/_images/sds_icon_small.png" class="icon"><br>Small Data Squad</a></center>
+
+<center><a href="/DOPPELCAM/" class="navlink"><img src="https://melanie-hoff.com/_images/doppelcam.jpg" class="icon"><br>Doppelcam</a></center>
+
+<center><a href="/DECODELIA/" class="navlink"><img src="https://melanie-hoff.com/_images/decodelia.jpg" class="icon"><br>Decodelia</a></center>
+
+<center><a href="http://beautycontest.melanie-hoff.com/" class="navlink"><img src="https://melanie-hoff.com/_images/beautycontest.jpg" class="icon"><br>Beauty contest</a></center>
+
+<!-- <center><a href="/small-data-squad/" class="navlink"><img src="http://artdelicorp.com/_images/doppelcam.jpg" class="icon"><br>ATM</a></center> -->
+
+<center><a href="/SKY-VIEW/" class="navlink"><img src="https://melanie-hoff.com/_images/skyview.jpg" class="icon"><br>Sky View</a></center>
+
+<center><a href="http://www.artdelicorp.com/Homework/FIRST-SCREEN-NAMES-09/" target="_blank" class="navlink"><img src="https://melanie-hoff.com/_images/firstscreennames.jpg" class="icon"><br>First Screen Names</a></center>
+
+
+<center><a href="http://artdelicorp.com/Homework/bodega_timemachine/" target="_blank" class="navlink"><img src="https://melanie-hoff.com/_images/bodegatimemachine.jpg" class="icon"><br>Bodega Time Machine</a></center>
+
+<center><a href="/SCANNERVISION/" class="navlink"><img src="https://melanie-hoff.com/_images/scannervision.jpg" class="icon"><br>Scannervision</a></center>
+
+<center><a href="/PORN-FOR-THE-BLIND/" class="navlink"><img src="https://melanie-hoff.com/_images/pornfortheblind.jpg" class="icon"><br>Porn for the Blind</a></center>
+
+<center><a href="/REMEMBERING/" class="navlink"><img src="https://melanie-hoff.com/_images/remembering.jpg" class="icon"><br>Remembering</a></center>
+
+<center><a href="/PEPTO-BISMUTH/" class="navlink"><img src="https://melanie-hoff.com/_images/peptobismuth.jpg" class="icon"><br>Pepto Bismuth</a></center>
+
+<center><a href="/15-000-VOLTS/" class="navlink"><img src="https://melanie-hoff.com/_images/15000volts.jpg" class="icon"><br>15,000 Volts</a></center>
+
+
+</div>
+
+<!-- <p id="welcome-text"><font color="white"><br>Hi! My name is Melanie hoff and you've arrived at my website. I hope the journey was smooth and whatever brought you here was a source whose judgement you trust. I'd like to share something of myself and my recent thoughts. Please, don't hesitate to tell me you disagree with every word, with every fibre of your being. My work rests on the premise that using the same tools that increasingly moderate and control society for artistic expression is an agile, political act. As artists, it's important not just to use these tools for our own agendas, but in doing so, to really understand how they operate on us and then share that knowledge. The relations between society and technology is a material reality that we need to be able to recognize before we can dismantle. The ability to read webs of power should not rest solely in the hands of those who spin them.,, My practice also investigates identity, visibility, and the ways in which representation actively shape our interactions and consciousness. None of us can claim to see everything in the situations we are in, and even what we see may not coincide with reality. Our perceptions are shaped by frames that hide some things and amplify others. Thank you for listening. smiley face. smiley face. heart.,,,,,</font></p> -->
+
+<script type="text/javascript">
+
+function leftmostize() {
+    var tops = {};
+    $(".sidebar center").each(function(i, element) {
+        var thisTop = $(element).offset().top;
+        if(!(thisTop in tops)) tops[thisTop] = 0;
+        tops[thisTop] += 1;
+    });
+    var rowSize = Object.values(tops)[0];
+    var lastRowTop = Object.keys(tops).pop();
+
+
+    $(".leftmost").removeClass("leftmost");
+    $(".bottommost").removeClass("bottommost");
+
+    $(".sidebar center").each(function(i, element) {
+        if(i % rowSize == 0) {
+            $(element).children(".navlink").addClass("leftmost");
+        }
+        var thisTop = $(element).offset().top;
+    	if(thisTop == lastRowTop) {
+            $(element).children(".navlink").addClass("bottommost");
+        }
+
+    });
+}
+
+
+$(function() {
+    $( window ).resize(function() {
+        leftmostize();
+    });
+    leftmostize();
+});
+
+</script>
+
+
+
+<style>
+body {
+	background-color:#dee2e1;
+
+}
+
+#title {
+    display: block;
+    text-align: -webkit-center;
+    height: 40px;
+    width: 100%;
+    color: #000000;
+    font-size: 1.5em;
+    margin-top: 29px;
+    margin-bottom: 29px;
+    padding-top: 8px;
+}
+
+#title:hover {
+    /*color: black;*/
+
+text-decoration: none;
+color: #22f;
+background: #1a1afa;
+background: -webkit-linear-gradient(to right, #dee2e1, #1a1afa);
+background: -o-linear-gradient(to right, #dee2e1, #1a1afa);
+background: -moz-linear-gradient(to right, #dee2e1, #1a1afa);
+background: linear-gradient(to right, #dee2e1, #1a1afa);
+-webkit-transition: color 0.5s;
+transition: color 0.5s;
+    /*text-shadow: 3px 0px 11px rgba(150, 150, 150, 1);*/
+}
+
+
+
+.icon {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    justify-content: space-around;
+    margin-right:70px;
+    margin-left:70px;
+    margin-top:60px;
+    margin-bottom:30px;
+	border:none;
+	width:220px;
+	height:220px;
+    border-radius: 4px;
+    /*-webkit-box-shadow: 0px 0px 64px -2px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 0px 64px -2px rgba(0,0,0,0.57);
+    box-shadow: 0px 0px 64px -2px rgba(0,0,0,0.57);*/
+}
+
+.icon:hover {
+    -webkit-filter: none; /* Safari 6.0 - 9.0 */
+    filter: none;
+
+}
+
+#welcome-text {
+    font-size: 5%;
+    letter-spacing: 0px;
+    text-align: left;
+    width:100%;
+    visibility: hidden;
+}
+
+.navlink {
+    width: 100%;
+    display:block;
+    font-size: 1.2em;
+    border-left: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    padding-bottom: 15px;
+  }
+
+  .navlink.leftmost {
+      border-left: none !important;
+  }
+
+  .navlink.bottommost {
+    border-bottom: none !important;
+    /*border-left: 3px solid #1a1afa !important;
+    border-right: 3px solid #1a1afa !important;*/
+  }
+
+  .social {
+      font-size: 1em;
+      margin-top: 20px;
+  }
+
+@media only screen and (max-width: 1376px) {
+    .icon {
+
+        margin-right:70px;
+        margin-left:70px;
+        width:200px;
+        height:200px;
+    	}
+
+
+}
+
+@media only screen and (max-width: 1160px) {
+    .icon {
+        margin-right:50px;
+        margin-left:50px;
+        width:200px;
+        height:200px;
+    	}
+}
+
+@media only screen and (max-width: 500px) {
+
+.icon {
+    margin-right:40px;
+    margin-left:40px;
+    margin-top:50px;
+    margin-bottom:10px;
+	}
+
+
+
+  .social {
+      font-size: .6em;
+      margin-bottom: 20px;
+  }
+
+
+
+}
+</style>
+
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-section">
+        <div class="main-content">
+
+    <div class="blog-post">
+
+
+
+
+        <!-- Content -->
+        <p><center><h1>15,000 Volts</h1><br></center></p>
+<p><body style="background-color:white;"></body></p>
+
+<p></p><p><iframe src="https://player.vimeo.com/video/60814695?title=0&byline=0&portrait=0" width="1000" height="570" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe><br><br><br><img src="http://i.imgur.com/192Aa1d.jpg"><br><br><br></p><br><br><br><p></p>
+<p><center><h1>Path of Least Resistance</h1><br></center></p>
+<p></p><p><iframe src="https://player.vimeo.com/video/137288470?title=0&byline=0&portrait=0" width="1000" height="570" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe><br><br></p>
+<p><center><p id="stuff">15,000 volts of current complete a circuit through the surface of wood by navigating around non-conductive barriers</p></center><br><br></p>
+<p><hr></p>
+<p></p><p><br><br><a href="http://i.imgur.com/GPxIHOF.jpg" target="_blank" rel="external"><img src="http://i.imgur.com/Y9Dja0E.jpg"></a><br><br><br><a href="http://i.imgur.com/GPxIHOF.jpg" target="_blank" rel="external"><img src="http://i.imgur.com/MgegYFs.jpg"></a><br><br><br></p><br><img src="http://i.imgur.com/GPxIHOF.jpg"><br><br><br><p></p>
+<p><hr></p>
+<p></p><p><br></p><p></p>
+<p></p><p><img src="http://i.imgur.com/rwXmh3q.jpg"></p><p></p>
+<p></p><p>Commissioned artist collaboration guitar with Fender </p><br><!-- <br>
+<img src="http://i.imgur.com/Y9Dja0E.jpg">
+<br>
+<img src="http://i.imgur.com/MgegYFs.jpg">
+ --><p></p>
+<!-- //////////////+centered+////////////// -->
+<style>
+.main-section{
+    display: flex;
+    justify-content: center;
+    float: none;
+    margin-left: 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+.blog-post{
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+
+}
+
+#stuff{
+    max-width: 80%;
+}
+
+.sidebar {
+    padding-left: 0px;
+    display:none;
+
+}
+
+</style>
+
+
+    </div>
+
+</div>
+
+
+
+    </div>
+
+</div>
+
+<!-- Footer -->
+
+<footer class="blog-footer">
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type='text/javascript'>
+var sc_project=11303890;
+var sc_invisible=1;
+var sc_security="801b5ec6";
+var sc_https=1;
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' async src='" +
+scJsHost+
+"statcounter.com/counter/counter_xhtml.js'></"+"script>");
+</script>
+<noscript><div class='statcounter'><a class='statcounter' href='http://statcounter.com/free-web-stats/' title='web stats'><img alt='web stats' class='statcounter' src='//c.statcounter.com/11303890/0/801b5ec6/1/'/></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+
+
+</footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+@import 'https://fonts.googleapis.com/css?family=Cormorant+Infant|Questrial';
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+
+body {
+    padding: 20px;
+    padding-left:40px;
+    font-family: 'Times New Roman', times, serif;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 1.25em;
+    letter-spacing: .25px;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+.sidebar {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 0px;
+    padding: 0px 20px 20px;
+
+}
+
+.blog-footer {
+    margin-right: 19px;
+    width: 40px;
+    height: 80px;
+    bottom: 19px;
+    display:block;
+    position:fixed;
+    right:0px;
+    visibility:visible;
+    z-index:auto;
+    border-radius: 4px;
+}
+
+
+.navlink {
+    width: 100%;
+    display:block;
+    font-size: .9em;
+    color:#000000;
+}
+
+
+.main-section {
+    float:left;
+    margin-left: 100px;
+    max-width: 900px;
+    width: 60%;
+}
+
+.blog-header {
+    display: fixed;
+
+    font-size: 1em;
+
+}
+
+.blog-post {
+    margin-bottom: 100px;
+}
+
+.blog-post-title {
+    display: none;
+}
+
+img, iframe, object, embed {
+    width: 1000px;
+    max-width: 100%;
+
+}
+
+a {
+    color: black;
+    text-decoration:none;
+}
+a:hover {
+/*    text-decoration: line-through;*/
+    /*color: #1a1afa;*/
+    text-decoration:underline;
+    cursor: pointer;
+    z-index: 2147483646;
+}
+
+.navlink:hover {
+/*    text-decoration: line-through;*/
+    /*color: black;*/
+    cursor: pointer;
+    z-index: 2147483646;
+}
+
+
+@media only screen and (max-width: 500px) {
+    body {
+        padding: 10px;
+
+/*        background-color: light#1a1afa;*/
+    }
+
+    .sidebar {
+        max-width: 100%;
+        margin: 0px;
+        padding-top: 0px;
+
+    }
+
+    #statement {
+        display: block;
+        text-align: left;
+        max-width: 900px;
+        margin-bottom: 0px;
+        /*width: 88%;*/
+    }
+
+    iframe {
+        max-height: 200px;
+        max-width: 100%;
+    }
+
+    .main-section {
+        margin-left: 2px;
+        width: 100%;
+    }
+
+    .navlink {
+        width: 100%;
+        display:block;
+        font-size: .9em;
+        line-height: 300%;
+        margin:0px;
+
+    }
+
+    .blog-footer {
+
+        padding: 2px;
+        margin-right: 0px;
+        width: 40px;
+        height: 80px;
+
+}

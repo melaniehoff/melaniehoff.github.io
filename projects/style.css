@@ -1,0 +1,201 @@
+body {
+  background-color: #e0e0e0;
+  color: black;
+  font-size: 1.2em;
+  margin-bottom: 15em;
+}
+
+.col1, .col2, .col3 {
+  /* border: 1px solid white; */
+  margin: 1em;
+  margin-left: 0;
+}
+
+.plain {
+  font-weight: 500;
+}
+
+.parent {
+  display: flex;
+  padding: 1em;
+}
+
+.col1 {
+  width: 280px;
+  display: none;
+}
+
+.col2{
+  width: 70%;
+}
+
+/* .col3 {
+  width: 30%;
+} */
+
+a {
+  color: mediumblue !important;
+}
+
+a:visited {
+  color: mediumblue !important;
+}
+
+a:hover {
+  background: yellow !important;
+}
+
+.a-work {
+  margin: 2em;
+  margin-bottom: 3em;
+}
+
+.title {
+  font-size: 1.5em;
+}
+
+.website {
+  font-weight: bold;
+  margin-top: -.2em;
+  margin-bottom: .5em;
+}
+
+
+/* .website a:visited{
+  color: red !important;
+} */
+
+.description {
+  width: 65%;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+#selectedProjects {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    margin-top: 1.5em;
+    font-weight: 100;
+    /* text-decoration: underline; */
+    border-bottom: 1px dashed blue;
+}
+
+
+.title .tooltip {
+  visibility: hidden;
+  margin-right: 10em;
+  margin-top: -1em;
+  left: 50%;
+  /* box-shadow: 0 0 15px rgba(255, 255, 255, .5), 0 0 10px rgba(255, 255, 255, .5); */
+  position: absolute;
+  z-index: 5;
+opacity: 0;
+transition: visibility 0s, opacity 0.2s linear;
+}
+
+.tooltip img{
+  width: 450px;
+  -webkit-box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.75);
+}
+
+.title:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.smallImage {
+  display: none;
+}
+
+#construction, #back {
+  margin-left: 2em;
+}
+
+
+#projects {
+  background: yellow !important;
+    color: #0c0cca !important;
+    padding: .2em !important;
+}
+
+.buyNow form input{
+  max-width: 140px;
+  margin-bottom: -1.5em;
+  margin-top: 1em;
+}
+
+.buyNow form input:hover{
+  -webkit-box-shadow: 0px 0px 14px -1px rgba(0,34,255,1);
+  -moz-box-shadow: 0px 0px 14px -1px rgba(0,34,255,1);
+  box-shadow: 0px 0px 14px -1px rgba(0,34,255,1);
+}
+
+@media only screen and (max-width: 1025px) {
+  .smallImage {
+    display: block;
+    width: 80vw;
+    padding-bottom: .5em;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .description {
+    width: 95%;
+  }
+
+  .col2{
+    width: 98%;
+  }
+
+  .a-work {
+    margin: 2em;
+    margin-bottom:4em;
+  }
+}
+@media only screen and (max-width: 435px) {
+
+  .title:hover .tooltip {
+    visibility: hidden;
+    opacity: 1;
+  }
+
+#selectedProjects {
+  margin-left: .2em;
+  margin-right: 1em;
+}
+
+#construction, #back {
+    margin-left: 1em;
+}
+
+.col2{
+    width: 100%;
+  }
+
+  .col1, .col2, .col3 {
+    margin: 0em;
+}
+
+.parent {
+  padding: 0em;
+}
+
+.a-work {
+    margin: .5em;
+    margin-bottom: 3em;
+}
+
+.title .tooltip {
+  visibility: hidden;
+  margin-right: 5em;
+  left: 30%;
+}
+
+.tooltip img{
+  width: 250px;
+}
+
+}

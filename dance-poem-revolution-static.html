@@ -8,49 +8,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dance Poem Revolution</title>
   <style>
+    @font-face {
+      font-family: "nanum";
+      src: url("./temp-assets/nanumthin.ttf");
+    }
+    @font-face {
+      font-family: "mxwim";
+      src: url("./temp-assets/MXWimGaramond-Light.otf");
+    }
     body {
       margin: 2rem auto;
       padding: 0 1rem;
       max-width: 72ch;
       color: #000;
-      line-height: 1.5;
-      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5rem;
+      font-size: 1.2em;
+      font-family: "nanum", Arial, Helvetica, sans-serif;
+      background: #bfbfbf;
     }
     h1, h2, h3 {
-      line-height: 1.15;
-      font-weight: 400;
+      line-height: 1.1;
+      font-weight: 300;
+      margin: 1rem 0;
     }
     h1 {
-      margin-top: 2rem;
-      font-size: 2.4rem;
+      margin-top: 4rem;
+      font-size: 3rem;
+      font-family: "mxwim", serif;
       padding-bottom: 0.5rem;
-      border-bottom: 2px dashed #000;
+      border-bottom: 0.5px dashed #000;
     }
     h2 {
-      margin-top: 2.25rem;
-      font-size: 1.5rem;
+      margin-top: 3rem;
+      font-size: 1.8rem;
     }
+    a:visited { color: blue; }
+    a:hover { text-decoration: underline; cursor: grab; }
     img, video {
       display: block;
       width: 100%;
       max-width: 100%;
-      margin: 1rem auto;
+      margin: 2rem auto;
       height: auto;
+    }
+    p > img.one-img,
+    img.one-img {
+      max-width: 400px;
+      width: auto;
     }
     table {
       width: 100%;
       border-collapse: collapse;
-      margin: 1rem 0;
+      border: 0.5px dashed #000;
+      margin: 1.5rem 0 2rem;
     }
+    table thead { display: none; }
     th, td {
-      border: 1px solid #000;
-      padding: 0.5rem;
+      border: 0.5px dashed #000;
+      padding: 10px;
       text-align: left;
       vertical-align: top;
     }
-    ul {
-      padding-left: 1.2rem;
-    }
+    ul { padding-left: 1.2rem; }
   </style>
 </head>
 <body>
